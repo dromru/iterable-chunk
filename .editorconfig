@@ -19,7 +19,7 @@ ij_wrap_on_typing = false
 indent_style = space
 indent_size = 2
 
-[**.yml]
+[{**.yml, **.yaml}]
 indent_size = 2
 indent_style = space
 
@@ -75,7 +75,7 @@ ij_php_blank_lines_before_class_end = 0
 ij_php_blank_lines_before_imports = 1
 ij_php_blank_lines_before_method_body = 0
 ij_php_blank_lines_before_package = 1
-ij_php_blank_lines_before_return_statement = 0
+ij_php_blank_lines_before_return_statement = 1
 ij_php_blank_lines_between_imports = 1
 ij_php_block_brace_style = end_of_line
 ij_php_call_parameters_new_line_after_left_paren = true
