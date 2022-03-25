@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Класс для разбиения итерируемых коллекций на пачки.",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Los Romka",
