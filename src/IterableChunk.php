@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Drom\Iterable;
 
+use InvalidArgumentException;
 use IteratorAggregate;
 use Traversable;
 
@@ -26,6 +27,10 @@ class IterableChunk implements IteratorAggregate
      */
     public function __construct(iterable $itemsIterator, int $chunkSize, bool $preserveKeys = false)
     {
+        if ($chunkSize <= 0) {
+            throw new InvalidArgumentException("\$chunkSize must be positive integer");
+        }
+
         $this->itemsIterator = $itemsIterator;
         $this->chunkSize = $chunkSize;
         $this->preserveKeys = $preserveKeys;
