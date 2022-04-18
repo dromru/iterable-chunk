@@ -3,3 +3,4 @@
 .php_cs.cache
 .phpcs-cache
 .phpunit.result.cache
+/build/logs/clover.xml

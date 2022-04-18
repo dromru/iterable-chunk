@@ -1,5 +1,10 @@
 # iterable-chunk
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/dromru/iterable-chunk.svg?style=flat-square)](https://packagist.org/packages/dromru/iterable-chunk)
+[![Tests](https://github.com/dromru/iterable-chunk/workflows/Tests/badge.svg)](https://github.com/dromru/iterable-chunk/actions)
+[![Coverage Status](https://coveralls.io/repos/github/dromru/iterable-chunk/badge.svg?branch=master)](https://coveralls.io/github/dromru/iterable-chunk?branch=master)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg?style=flat-square)](https://php.net/)
+
 Класс для разбиения итерируемых коллекций на пачки.
 
 P.S. Реализован с использованием генераторов.
@@ -42,6 +47,3 @@ composer run ecs
 composer run ecs-fix
 composer run bench
 ```
-
-Если `composer run lint` не проходит после вызова `composer run fix`, попробуйте прогнать `composer run fix` раз 5-6.
-В силу того, что ecs/php-cs-fixer исправляют ошибки неитеративно, то появляется необходимость в прогоне `composer run fix` несколько раз.

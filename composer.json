@@ -19,13 +19,7 @@
         "php": ">=7.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.5",
-        "dromru/php-editorconfig": "dev-master",
-        "dromru/php-cs-fixer-config": "dev-master",
-        "dromru/php-codesniffer-config": "dev-master",
-        "dromru/php-stan-config": "dev-master",
-        "dromru/php-ecs-config": "dev-master",
-        "dromru/php-md-config": "dev-master",
+        "phpunit/phpunit": "^9.5.20",
         "roave/security-advisories": "dev-master",
         "phpmd/phpmd": "^2.6",
         "phpstan/extension-installer": "^1.0",
@@ -90,22 +84,9 @@
             "@phpunit"
         ]
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.drom.ru/",
-            "comment": "packagist.drom.ru"
-        }
-    ],
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "dromru/php-codesniffer-config": true,
-            "dromru/php-cs-fixer-config": true,
-            "dromru/php-ecs-config": true,
-            "dromru/php-editorconfig": true,
-            "dromru/php-md-config": true,
-            "dromru/php-stan-config": true,
             "ocramius/package-versions": true,
             "phpstan/extension-installer": true
         }
