@@ -1,6 +1,6 @@
 {
     "name": "dromru/iterable-chunk",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Класс для разбиения итерируемых коллекций на пачки.",
     "type": "library",
     "license": "MIT",
