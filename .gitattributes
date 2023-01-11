@@ -1,0 +1,13 @@
+.github/** export-ignore
+.phpmd/** export-ignore
+assets/** export-ignore
+test/** export-ignore
+.editorconfig export-ignore
+.php_cs export-ignore
+.phpcs.xml export-ignore
+bootstrap.php export-ignore
+ecs.php export-ignore
+PhpBench.php export-ignore
+phpstan.neon export-ignore
+phpstan.neon.dist export-ignore
+phpunit.xml export-ignore
