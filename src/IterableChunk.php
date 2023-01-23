@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drom\Iterable;
+namespace Drom\IterableUtils;
 
 use InvalidArgumentException;
 use IteratorAggregate;

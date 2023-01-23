@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Drom\\Iterable\\": "src/"
+            "Drom\\IterableUtils\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\Drom\\Iterable\\": "test/unit/"
+            "Test\\Drom\\IterableUtils\\": "test/unit/"
         }
     },
     "scripts": {

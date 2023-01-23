@@ -23,13 +23,13 @@ class PhpBench
 {
     public function benchIterableChunkOnArray(): void
     {
-        foreach (new \Drom\Iterable\IterableChunk(iterArray(), 7) as $chunk) {
+        foreach (new \Drom\IterableUtils\IterableChunk(iterArray(), 7) as $chunk) {
         }
     }
 
     public function benchIterableChunkOnGenerator(): void
     {
-        foreach (new \Drom\Iterable\IterableChunk(iterGener(), 7) as $chunk) {
+        foreach (new \Drom\IterableUtils\IterableChunk(iterGener(), 7) as $chunk) {
         }
     }
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Test\Drom\Iterable;
+namespace Test\Drom\IterableUtils;
 
-use Drom\Iterable\IterableChunk;
+use Drom\IterableUtils\IterableChunk;
 use Exception;
 use Generator;
 use PHPUnit\Framework\TestCase;
